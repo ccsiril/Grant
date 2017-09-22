@@ -1,0 +1,26 @@
+create database emp;
+
+use emp;
+
+create table details(id int  not null primary key auto_increment,name varchar(20),age int);
+
+insert into details values('syr','20');
+insert into details values('ram','20');
+insert into details values('sam','20');
+insert into details values('war','20');
+
+Create a use outer of the MySQL
+create user 'cyr@localhost' identified by 'joss';
+
+Permits All Permissions
+grant all on emp.* to 'cyr@localhost';
+
+Remove all permissions
+revoke all on emp.* from 'cyr@localhost';
+
+
+
+
+
+
+
